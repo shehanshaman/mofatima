@@ -1,0 +1,203 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanssinhala.css);
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix{
+	overflow: auto;
+}
+
+
+.wrapper{
+	width: 1000px;
+	margin :0 auto;
+}
+
+.intro{
+	margin-top: 15px;
+}
+
+.intro_txt{
+	width: 1000px;
+	height: 300px;
+}
+
+.intro_txt h1{
+	padding-top: 120px;
+	text-align: center;
+	font-weight: bold;
+	color: #333131;
+	font-size: 45px;
+}
+
+.intro_txt p{
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 250px;
+}
+
+
+.welcome{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 1000px;
+	display: table-cell;
+	text-align: center;
+	background-color: white;
+	vertical-align: middle;
+}
+
+.welcome .our_vision{
+	width: 250px;
+	margin-left: 95px;
+	padding-left: 150px;
+	padding-right: 150px;
+	margin-right: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: #e6eaef;
+	float: left;
+	height: 250px;
+}
+
+.welcome .what_do{
+	width: 250px;
+	height: 250px;
+	margin: 15px;
+	background-color: #e6eaef;
+	float: left;
+}
+
+.welcome .our_community{
+	height: 250px;
+	width: 250px;
+	margin-left: 15px;
+	margin-right: 95px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: #e6eaef;
+	float: left;
+}
+
+.welcome .our_vision h2{
+	text-transform: uppercase;
+	font-weight: normal;
+	padding-top: 10px;
+}
+
+.welcome .what_do h2{
+	padding-top: 10px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.welcome .our_community h2{
+	text-transform: uppercase;
+	font-weight: normal;
+	padding-top: 10px;
+}
+
+.welcome .our_vision p{
+	margin: 10px 10px 20px 10px;
+}
+
+.welcome .what_do p{
+	margin: 10px 10px 20px 10px;
+}
+
+.welcome .our_community p{
+	margin: 10px 10px 20px 10px;
+}
+
+.welcome a{
+	text-decoration: none;
+	color:#7b7d7f; 
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.sub{
+	display: inline-block;
+	text-align: center;
+	height: 1px;
+	width: 125px;
+	border-bottom: 2px solid gray;
+}
+
+.history{
+	height: 399px;
+	padding: 20px 20px 20px 20px;
+	background-color: white;
+	margin-bottom: 20px;
+}
+
+.history .his_pic{
+	float: left;
+}
+.history img{
+	width: 700px;
+}
+
+.history .his_txt{
+	padding: 50px;
+	float: left;
+	width: 160px;
+	height: 299px;
+	background-color: #2b5f8c;
+	display: inline-block;
+}
+
+.his_txt h2{
+	margin-top: 30px;
+	padding-bottom: -20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.his_txt p{
+	padding: 6px;
+	height: 145px;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.his_txt a{
+	color: gray;
+	border-radius: 5px;
+	margin-left: 20px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: normal;
+	background-color: white;
+}
+
+.his_txt a :hover{
+	color : green;
+	font-weight: bold;
+}
+
+.his_txt a p{
+	font-size: 12px;
+}
+
+.his_txt a i{
+	padding: 5px;
+	background-color: orange;
+	border-radius: 10px;
+	font-size: 25px;
+}
+
+.pic{
+	margin: 15px 100px 15px 100px;
+}
+
+.center{
+	padding-left: 130px;
+}

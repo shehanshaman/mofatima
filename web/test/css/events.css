@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanssinhala.css);
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix{
+	overflow: auto;
+}
+
+
+.wrapper{
+	width: 1000px;
+	margin :0 auto;
+}
+
+.intro{
+	margin-top: 15px;
+}
+
+.intro_txt{
+	height: 300px;
+}
+
+.intro_txt h1{
+	padding-top:200px; 
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 45px;
+}
+
+.next_event{
+	background-color: #eff1f2;
+	height: 440px;
+	width: 1000px;
+	text-align: center;
+}
+
+.next_event h1{
+	padding-top: 40px;
+	padding-bottom: 50px;
+	font-weight: normal;
+	text-align: center;
+	height: 60px;
+}
+
+.next_event .event0{
+	padding-left: 95px; padding-right: 15px;
+	height: 200px;
+	width: 249px;
+	float: left;
+	display: inline-block;
+	text-align: center;
+	border-right: 2px solid black;
+}
+
+.next_event .event1{
+	padding-left: 15px; padding-right: 15px;
+	height: 200px;
+	width: 248px;
+	float: left;
+	display: inline-block;
+	text-align: center;
+	border-right: 2px solid black;
+}
+
+.next_event .event2{
+	padding-top: 0px;
+	padding-left: 15px; padding-right: 95px;
+	height: 200px;
+	width: 249px;
+	float: left;
+	display: inline-block;
+	text-align: center;
+}
+
+.next_event a{
+	text-decoration: none;
+}
+
+.next_event h2{
+	padding-bottom: 10px;
+}
+.next_event h4{
+	padding-top: 20px;
+}
+
+.welcome{
+	display: table-cell;
+	width: 1000px;
+	height: 600px;
+	text-align: center;
+	background-color: white;
+	vertical-align: middle;
+}
+
+.container{
+	margin-bottom: 20px;
+}
+
+.endline{
+	padding-top: 0px;
+	height: 360px;
+}
+
+.endline .links{
+	float: right;
+	margin-bottom: 10px;
+}
+
+.endline .address{
+	width: 280px;
+	height: 280px;
+	margin-bottom: 10px;
+	}
+
+.endline .about_us{
+	height: 280px;
+	margin-bottom: 10px;
+}
+
+.past-event{
+	padding: 15px;
+	background-color: #4f68a3;
+	margin: 5px;
+}
+
+.past-event .past-intro-text{
+	padding-top: 110px;
+}
+
+.past-event .past-intro-text a{
+	text-decoration: none;
+	vertical-align: middle;
+	color: white;
+}
+
+.past-event .past-intro-text a:hover{
+	color: yellow;
+}
+
+.saturate {-webkit-filter: saturate(7); filter: saturate(7);}

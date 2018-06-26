@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanssinhala.css);
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix{
+	overflow: auto;
+}
+
+
+.wrapper{
+	width: 1000px;
+	margin :0 auto;
+}
+
+.intro{
+	margin-top: 15px;
+}
+
+.intro_txt{
+	height: 461px;
+}
+
+.intro_txt h1{
+	
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 45px;
+	padding-top: 340px;
+}
+
+.all_society{
+	margin-bottom: 20PX;
+	margin-top: 20px;
+	width: 1000PX;
+	height: 380px;
+	background-color: white;
+}
+
+.society_list{
+	display: inline-block;
+	margin-left: 15px;
+	margin-right: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 200px;
+	height: auto;
+	background: linear-gradient(  #eaf2ff,#a0c4ff,  #eaf2ff);
+	float: left;
+	height: 360px;
+}
+
+.society_list ul{
+	padding-top: 22px;
+	list-style: none;
+
+}
+
+.society_list ul a{
+	display: block;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: normal;
+	background:white;
+	border-radius: 15px;
+}
+
+.society_list ul a:hover{
+	color: #603800;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.all_society .description{
+	display: inline-block;
+	background-color: #e5d7c9;
+	width: 740px;
+	height:360px;
+	float: left;
+	margin-top: 10px;
+	position: relative;
+	text-align: center;
+}
+
+.description img{
+	opacity: 0.6;
+}
+
+.all_society .description p{
+	position: absolute;
+	top:30%;
+	left: 0%;
+	font-style: italic;
+	font-size: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-weight: bold;
+}
+
+.all_society .description p a{
+	text-decoration: none;
+}
+
+.free_area img{
+	width: 1000;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+.free_area img:hover{
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+}

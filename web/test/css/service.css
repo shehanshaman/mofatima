@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanssinhala.css);
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix{
+	overflow: auto;
+}
+
+
+.wrapper{
+	width: 1000px;
+	margin :0 auto;
+}
+
+.intro{
+	margin-top: 15px;
+}
+
+.intro_txt{
+	height: 563px;
+}
+
+.intro_txt h1{
+	padding-top: 150px;
+	padding-right: 200px;
+	text-align: right;
+	font-weight: bold;
+	color: #FFD700;
+	font-size: 45px;
+}
+
+.welcome_txt h2{
+	padding: 20px 0 0 20px;
+}
+
+.welcome_txt{
+	margin-top: 20px;
+	background: #bccfe0;
+	height: 460px;
+}
+
+.mass{
+	width: 400px;
+	float: left;
+	margin: 50px;
+	background-color: #637799;
+	border-radius: 35px;
+}
+
+.mass .image{
+	width: 200px;
+	margin:  20px 5px 20px 20px;
+	float: left;
+}
+
+.mass .text{
+	width: 150px;
+	margin: 20px 20px 20px  5px;
+	float: left;
+	color: white;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.nuwanaya{
+	width: 400px;
+	float: right;
+	margin: 50px;
+	background-color: #637799;
+	border-radius: 35px;
+}
+
+.nuwanaya .image{
+	width: 200px;
+	margin: 20px 20px 20px  5px;
+	float: right;
+}
+
+.nuwanaya .text{
+	padding-top: 80px;
+	width: 150px;
+	margin:  20px 5px 20px 20px;
+	float: left;
+	color: white;
+	text-align: center;
+}
+
+.wrapper .new p{
+	color: red;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.container{
+	width: 1000px;
+	padding-left: 73px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}

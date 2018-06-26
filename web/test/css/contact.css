@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanssinhala.css);
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix{
+	overflow: auto;
+}
+
+
+.wrapper{
+	width: 1000px;
+	margin :0 auto;
+}
+
+.intro{
+	margin-top: 15px;
+}
+
+.intro_txt{
+	height: 300px;
+}
+
+.intro_txt h1{
+	padding-top: 110px;
+	text-align: center;
+	font-weight: bold;
+	color: #af4600;
+	font-size: 50px;
+}
+
+div.view_map{
+	display: block;
+	align-items: center;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-style: double;
+}
+
+.contact_list{
+	background: #f4f4f4;
+	height: auto;
+}
+
+.contact_list .tel{
+	display: block;
+	margin-left: 74.0px;
+	width: 150px;
+	float: left;
+}
+
+.contact_list i{
+	display: block;
+	font-size: 80px;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 25px;
+}
+
+.contact_list  p{
+	display: block;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.contact_list .address{
+	margin-left: 150px;
+	margin-right: 150px;
+	width: 250px;
+	float: left;
+	display: block;
+}
+
+.contact_list .mail{
+	margin-right: 74.0px;
+	width: 150px;
+	float: left;
+	display: block;
+}
+
+.contact_list .mail p{
+	margin-left: -20px;
+}
+
+.feedback{
+	width: 1000px;
+	height: auto;
+	background:#dbfcc4; 
+	text-align: center;
+}
+
+.feedback h2{
+	text-decoration: underline;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+}
+
+.feedback a{
+	font-weight: bold;
+	padding-left: 12px;
+	text-decoration: none;
+}
+
+.feedback p{
+	padding-bottom: 10px;
+}

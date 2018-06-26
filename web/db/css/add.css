@@ -1,0 +1,20 @@
+.addin{
+	display: block;
+	  margin: auto;
+    width: 60%;
+    padding: 10px;
+ margin-top: 150px;
+
+}
+
+table{
+
+  margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 50px;
+}
+
+.errmsg{
+	color: red;
+}

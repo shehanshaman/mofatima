@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix{
+	overflow: auto;
+}
+.wrapper{
+	margin: auto;
+}
+
+.bottom_bar{
+	padding: 5px;
+	margin-top: 150px;
+}
+
+.bottom_bar .create{
+	display: inline-block;
+	float: left;
+}
+
+.bottom_bar .link{
+	display: inline-block;
+	float: right;
+}
+
+.bottom_bar .link a{
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+.bottom_bar .create p{
+	margin-top: 10px;
+}
+
+.bottom_bar .link a:hover{
+	color: red;
+}
+
+.top_bar, .bottom_bar{
+	width: auto;
+	height: 50px;
+	background-color: gray;
+}
+
+.bottom_bar{
+	height: 85px;
+	color: white;
+}
+
+.top_bar .db_name{
+	padding: 10px;
+	float: left;
+	display: inline-block;
+	padding-left: 10px;
+}
+
+.top_bar .user_id {
+	padding: 10px;
+	float: right;
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.top_bar p{
+	font-size: 20px;
+	color: white;
+}
+
+.top_bar p a{
+	color: orange;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.top_bar p a:hover{
+	color: white;
+}
+
+.alert{
+	font-size: 20px;
+}
+
+.add{
+	font-size: 15px;
+}
+
+.sort{
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #c8e9f4;
+	padding: 20px;
+}
+
+.sort button{
+	width: 200px;
+}

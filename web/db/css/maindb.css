@@ -1,0 +1,52 @@
+.bottom_bar .create{
+	display: inline-block;
+	float: left;
+}
+
+.bottom_bar .link{
+	display: inline-block;
+	float: right;
+}
+
+.bottom_bar .link a{
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+.bottom_bar .link a:hover{
+	color: red;
+}
+
+.top_bar, .bottom_bar{
+	width: auto;
+	height: 50px;
+	background-color: gray;
+	color: white;
+	font-size: 15px;
+}
+
+.top_bar{
+	padding-top: 5px;
+	padding-left: 10px;
+	font-size: 20px;
+}
+
+.wrapper{
+	width: 600px;
+	margin: auto;
+}
+
+button{
+	margin: auto;
+	width: 200px;
+	margin-left: 200px;
+}
+
+h1{
+	text-align: center;
+}
+
+.bottom_bar{
+	margin-top: 10px;
+}

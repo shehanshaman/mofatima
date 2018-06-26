@@ -1,0 +1,223 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanssinhala.css);
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix{
+	overflow: auto;
+}
+
+.wrapper{
+	width: 1000px;
+	margin :0 auto;
+}
+
+
+.intro{
+	width: 1000px;
+	margin-top: 15px;
+}
+
+.intro_txt{
+	width: 1000px;
+	height: 563px;
+}
+
+.intro_txt h1{
+	
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 45px;
+}
+
+.intro_txt p{
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 250px;
+}
+
+.intro_txt a{
+	text-decoration: none;
+	color: white; 
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+
+
+.next_event{
+	background-color: #eff1f2;
+	height: 380px;
+	width: 1000px;
+}
+
+.next_event h1{
+	padding-top: 40px;
+	padding-bottom: 20px;
+	font-weight: normal;
+	text-align: center;
+	height: 60px;
+}
+
+.next_event .event0{
+	padding-left: 95px; padding-right: 15px;
+	height: 200px;
+	width: 249px;
+	float: left;
+	display: inline-block;
+	text-align: center;
+	border-right: 2px solid black;
+}
+
+.next_event .event1{
+	padding-left: 15px; padding-right: 15px;
+	height: 200px;
+	width: 248px;
+	float: left;
+	display: inline-block;
+	text-align: center;
+	border-right: 2px solid black;
+}
+
+.next_event .event2{
+	padding-top: 30px;
+	padding-left: 15px; padding-right: 95px;
+	height: 200px;
+	width: 249px;
+	float: left;
+	display: inline-block;
+	text-align: center;
+}
+
+.next_event a{
+	text-decoration: none;
+}
+
+.next_event h2{
+	padding-bottom: 10px;
+}
+.next_event h4{
+	padding-top: 20px;
+}
+
+.welcome{
+	display: table-cell;
+	width: 1000px;
+	height: 600px;
+	text-align: center;
+	background-color: white;
+	vertical-align: middle;
+}
+
+.welcome_txt p{
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 10PX;
+	margin-bottom: 10px;
+}
+
+.welcome_txt {
+	display: table-cell;
+	vertical-align: middle;
+	height: 150px;
+}
+
+.welcome_txt p{
+	color: #595a5b;
+}
+
+.welcome img{
+	width: 250px;
+	height: 141px;
+}
+
+.welcome .our_church{
+	width: 250px;
+	margin-left: 95px;
+	margin-right: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: #e6eaef;
+	float: left;
+	height: 400px;
+}
+
+.welcome .society{
+	width: 250px;
+	height: 400px;
+	margin: 15px;
+	background-color: #e6eaef;
+	float: left;
+}
+
+.welcome .services{
+	height: 400px;
+	width: 250px;
+	margin-left: 15px;
+	margin-right: 95px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: #e6eaef;
+	float: left;
+}
+
+.welcome .our_church h2{
+	text-transform: uppercase;
+	font-weight: normal;
+	padding-top: 10px;
+}
+
+.welcome .society h2{
+	padding-top: 10px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.welcome .services h2{
+	text-transform: uppercase;
+	font-weight: normal;
+	padding-top: 10px;
+}
+
+.welcome .our_church p{
+	margin: 10px 10px 20px 10px;
+}
+
+.welcome .society p{
+	margin: 10px 10px 20px 10px;
+}
+
+.welcome .services p{
+	margin: 10px 10px 20px 10px;
+}
+
+.welcome a{
+	text-decoration: none;
+	color:#7b7d7f; 
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.sub{
+	display: inline-block;
+	text-align: center;
+	height: 1px;
+	width: 125px;
+	border-bottom: 2px solid gray;
+}
+
+.help_txt h2{
+	height: 483px;
+	width: 1000px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 55px;
+	color: black;
+}

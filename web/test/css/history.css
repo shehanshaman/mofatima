@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanssinhala.css);
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix{
+	overflow: auto;
+}
+
+.wrapper{
+	width: 1000px;
+	margin :0 auto;
+}
+
+
+.intro{
+	margin-top: 15px;
+}
+
+.intro_txt{
+	height: 539px;
+}
+
+.intro_txt h1{
+	padding-top: 420px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 45px;
+}
+
+.txt_area{
+	height: auto;
+	background: white;
+}
+
+.txt_area p{
+	padding: 20px 40px 20px 40px;
+	font-size: 120%;
+	text-align: justify;
+}
+
+.endline{
+	padding-top: 0px;
+	height: 360px;
+}
+
+.endline .links{
+	float: right;
+	margin-bottom: 10px;
+}
+
+.endline .address{
+	width: 310px;
+	height: 280px;
+	margin-bottom: 10px;
+	}
+
+.endline .about_us{
+	height: 280px;
+	margin-bottom: 10px;
+}
+
+div.pic {
+  width: 290px;
+  background-color: white;
+  padding-top: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.name {
+  text-align: center;
+  padding: 0px 0px;
+  font-weight: bold;
+}
+
+div.text{
+	padding-top: 50px;
+	padding-left: 40px;
+}
+
+div.pic1{
+	padding-left: 40px;
+	padding-top: 15px;
+}
+
+div.row-img{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+div.pic2 img , div.pic3 img{
+	padding-left: 50px;
+	padding-top: 15px;
+}
+
+div.pic3{
+	margin-left: 180px;
+}
